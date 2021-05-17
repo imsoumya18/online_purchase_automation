@@ -1,5 +1,4 @@
 from selenium import webdriver
-# from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 # Taking username & password as input
@@ -8,7 +7,6 @@ pswd = input('Enter password: ')
 
 # Loading the driver
 driver = webdriver.Chrome('chromedriver.exe')
-# driver = webdriver.Chrome(ChromeDriverManager().install())
 
 driver.get('https://www.shopmaster.com/order/index.html?state=to-purchase')
 
